@@ -1,0 +1,56 @@
+.full-screen {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(213,194,156,0.48082983193277307) 99%, rgb(88, 91, 92) 100%);
+    width: 100%;
+    height: 100vh;
+    color: rgb(236, 58, 58);
+    font-family: 'Arial Black';
+    text-align: center;
+  }
+
+  .container {
+    padding-top: 4em;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .error-num {
+    font-size: 8em;
+  }
+
+  .eye {
+    background: rgb(235, 16, 16);
+    border-radius: 50%;
+    display: inline-block;
+    height: 100px;
+    position: relative;
+    width: 100px;
+  }
+    .eye::after {
+      background: #000;
+      border-radius: 50%;
+      bottom: 56.1px;
+      content: ' ';
+      height: 33px;
+      position: absolute;
+      right: 33px;
+      width: 33px;
+    }
+
+
+  .italic {
+    font-style: italic;
+  }
+
+  p {
+    margin-bottom: 4em;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }a:hover {
+      color: lightgray;
+    }
